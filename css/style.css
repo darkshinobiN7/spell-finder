@@ -1,0 +1,142 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background: #100e17;
+}
+
+.main {
+  background-color: #100e17;
+  color: white; 
+  display: flex;
+  height: 100vh;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.background {
+  background-image: url('../img/wizard-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.spell-finder {
+  margin: 20% 2% 10% 2%;
+}
+
+.title {
+  color: white;
+  font-size: 50px;
+  margin: 20px 0 20px;
+}
+
+.title-span {
+  color: #f9004d;
+}
+
+button {
+  margin: 0.5em;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  width: 20rem;
+  height: 1.8em;
+  background-color: #f9004d;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #7c7c7c6b;
+}
+
+input[type=text] {
+  margin: 0.5em;
+  width: 20rem;
+  border: none;
+  outline: none;
+  padding: 0.5em;
+  border-radius: 10px;
+  background-color: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+}
+
+.spell-card {
+  margin: 2% 2% 2% 2%;
+  width: 30rem;
+  height: auto;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+}
+
+p {
+  text-justify: inter-word !important;
+}
+
+img{
+  width: 40%;
+}
+
+.spell-name {
+  font-size: 26px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.level-school {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.range, .components, .duration {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.description {
+  padding: 20px 60px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.higher-level {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0 60px;
+}
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
